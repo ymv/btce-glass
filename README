@@ -1,0 +1,12 @@
+BTC-E arbitrage bot
+-------------------
+
+Continuously grabs offers and try to find profitable circular path. Upon finding such path, makes trades and exits
+
+This piece of garbage lacks:
+ - Non hardcoded configuration
+ - Trade result checking
+ - Persistent HTTP
+ - Balance checks
+ - Nonce autodetection
+ - Fixed point math
